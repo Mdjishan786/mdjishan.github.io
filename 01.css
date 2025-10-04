@@ -1,0 +1,78 @@
+style.css*
+
+css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0f1a;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #101223;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00f6ff;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00ffe5;
+}
+
+.hero {
+  padding: 60px 40px;
+}
+
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.personal {
+  background: #15172b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.personal h2 {
+  color: #00ffe5;
+  margin-bottom: 20px;
+}
+
+.personal ul {
+  list-style: none;
+}
+
+.personal li {
+  margin-bottom: 10px;
+}
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00ffe5;
+  margin-bottom: 20px;
+}
+
